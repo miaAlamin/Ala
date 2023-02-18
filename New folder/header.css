@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #ddd;
+}
+/*state head*/
+header{
+    width:100%;
+    background:white;
+    display:flex;
+    
+}
+.logo{
+    font-family:'Courier New', Courier, monospace;
+    font-size:100px;
+    font-weight:bold;
+    color:greenyellow;
+    margin-left:30px;
+}
+.nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nav ul li{
+    
+    border:0px solid green;
+    width:90px;
+    height:30px;
+    text-transform: uppercase;
+    color:blue;
+    text-align:center;
+    line-height:30px;
+    float:left;
+    margin:20px;
+    transition:all 1.5s;
+}
+.nav ul{
+    list-style:none;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:blue;
+}
+.nav ul ul{
+    display:none;
+}
+.nav ul li:hover{
+    background:greenyellow;
+}
+.nav ul li:hover ul{
+    display:block;
+    
+
+}
+.nav ul li li{
+    border:2px solid greenyellow;
+}
+/* end head*/
+
+
+/*form state*/
+.form{
+    background:greenyellow;
+    opacity: 0.8;
+    text-align:center;
+    width:fit-content;
+    height:fit-content;
+    margin:0 auto;
+    padding:20px 20px;
+    margin-top: 30px;
+    border-radius:10px;
+    color:green;
+    font-size:20px;
+    box-shadow:0px 8px 20px 0px #8d6262;
+
+}
+.form input{
+    padding:3px 10px;
+    border-color:green;
+    border-radius:50px;
+}
+.form.btn{
+    font-weight:bold;
+    color:pink;
+    
+}
+.form.good{
+    color:red;
+}
+    
+
+
+/*form end*/
+
+/* state footer*/
+footer{
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background:rgba(0, 0, 0, 0.938);
+    color:white;
+    text-align: center;
+    
+
+}
+.para p{
+    width:500px;
+    
+    margin:0 auto;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    top:-20px;
+} 
+.some{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.heading{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-top: -10px;
+}
+.icon img{
+    position:relative;
+    top:-10px;
+    padding:7px;
+}
+.some{
+    position:relative;
+    top:-10px;
+}
+
